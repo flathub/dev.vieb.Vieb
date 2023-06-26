@@ -1,12 +1,22 @@
+From 2c1471174b6f99abd74af74efe738737279bbbe2 Mon Sep 17 00:00:00 2001
+From: bbhtt <bbhtt.zn0i8@slmail.me>
+Date: Mon, 26 Jun 2023 15:48:50 +0530
+Subject: [PATCH] Patch electron-builder
+
+---
+ electron-builder.yml | 25 +++----------------------
+ 1 file changed, 3 insertions(+), 22 deletions(-)
+
 diff --git a/electron-builder.yml b/electron-builder.yml
-index 90964c3..cb45152 100644
+index 1107dee..ad474a7 100644
 --- a/electron-builder.yml
 +++ b/electron-builder.yml
-@@ -5,30 +5,11 @@ linux:
+@@ -5,31 +5,12 @@ linux:
    executableName: vieb
    category: Network;WebBrowser;
    maintainer: Jelmer van Arnhem
 +  asar: false
+   publish:
    target:
 -    - target: AppImage
 +    - target: dir
@@ -36,3 +46,5 @@ index 90964c3..cb45152 100644
  rpm:
    fpm:
      - --rpm-rpmbuild-define=_build_id_links none
+--
+2.41.0
