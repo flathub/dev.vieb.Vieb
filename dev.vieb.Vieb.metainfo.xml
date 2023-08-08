@@ -43,6 +43,7 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="10.1.1" date="2023-07-11"/>
     <release version="10.1.0" date="2023-06-23">
       <description>
         <p>10.1.0 release</p>
