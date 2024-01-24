@@ -95,8 +95,8 @@ modules:
           - install -Dm755 modules/printbackends/libprintbackend-cups.so -t ${FLATPAK_DEST}/lib/gtkmodules/3.0.0/printbackends/
         sources:
           - type: archive
-            url: https://download.gnome.org/sources/gtk+/3.24/gtk+-3.24.40.tar.xz
-            sha256: 444dbb11f4fd5d592d74422441671854d1b744d0a7f3a3fbf9d4f936eb0552d3
+            url: https://download.gnome.org/sources/gtk+/3.24/gtk+-3.24.41.tar.xz
+            sha256: 47da61487af3087a94bc49296fd025ca0bc02f96ef06c556e7c8988bd651b6fa
             x-checker-data:
               type: gnome
               name: gtk+
