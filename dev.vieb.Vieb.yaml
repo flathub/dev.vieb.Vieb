@@ -55,8 +55,8 @@ modules:
         dest-filename: vieb.appimage
         only-arches:
           - aarch64
-        url: https://github.com/Jelmerro/Vieb/releases/download/11.0.0/Vieb-11.0.0-arm64.AppImage
-        sha256: ea168d4e5ed5d558b3a4e79ae5f42e02e93b0d690aced2e9374fd49bd3dd8248
+        url: https://github.com/Jelmerro/Vieb/releases/download/12.0.0/Vieb-12.0.0-arm64.AppImage
+        sha256: 4845451edf3d7d446f9d45484c709455ea1100c84443a3e8a8b84acb0322dfa4
         x-checker-data:
           type: anitya
           project-id: 243097
@@ -66,8 +66,8 @@ modules:
         dest-filename: vieb.appimage
         only-arches:
           - x86_64
-        url: https://github.com/Jelmerro/Vieb/releases/download/11.0.0/Vieb-11.0.0.AppImage
-        sha256: 8d79b2538bdf4f9fbad5103554448d3987dd5dfde217e0f6df16e688f05417f9
+        url: https://github.com/Jelmerro/Vieb/releases/download/12.0.0/Vieb-12.0.0.AppImage
+        sha256: 6d7c26510722d1196f99750d37a73b61b56c49ee9e5d1c99d94231debb4310f3
         x-checker-data:
           is-main-source: true
           type: anitya
@@ -95,8 +95,8 @@ modules:
           - install -Dm755 modules/printbackends/libprintbackend-cups.so -t ${FLATPAK_DEST}/lib/gtkmodules/3.0.0/printbackends/
         sources:
           - type: archive
-            url: https://download.gnome.org/sources/gtk+/3.24/gtk+-3.24.41.tar.xz
-            sha256: 47da61487af3087a94bc49296fd025ca0bc02f96ef06c556e7c8988bd651b6fa
+            url: https://download.gnome.org/sources/gtk+/3.24/gtk+-3.24.42.tar.xz
+            sha256: 50f89f615092d4dd01bbd759719f8bd380e5f149f6fd78a94725e2de112377e2
             x-checker-data:
               type: gnome
               name: gtk+
