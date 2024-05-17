@@ -5,6 +5,9 @@
   <project_license>GPL-3.0-or-later</project_license>
   <name>Vieb</name>
   <summary>Vim Inspired Electron Browser</summary>
+  <developer id="nl.jelmerro">
+    <name>Jelmer van Arnhem</name>
+  </developer>
   <description>
     <p>Vim bindings for the web by design.</p>
     <p>Vieb is the Vim Inspired Electron Browser.</p>
@@ -50,29 +53,7 @@
     <release version="10.3.0" date="2023-08-28"/>
     <release version="10.2.0" date="2023-08-09"/>
     <release version="10.1.1" date="2023-07-11"/>
-    <release version="10.1.0" date="2023-06-23">
-      <description>
-        <p>10.1.0 release</p>
-        <ul>Added
-          <li>Option "external" to "pdfbehavior" setting to open the pdf with externalcommand automatically</li>
-        </ul>
-        <ul>Fixed
-          <li>Settings starting with "no" or "inv" not being able to be listed without "?" nor reporting the correct name</li>
-          <li>Actions "nextPage" and "previousPage" no longer working for link elements</li>
-          <li>Pointer scrolling to search results not working correctly due to Electron's inconsistent API</li>
-          <li>Infinite loading issue for unresponsive pages due to loadurl rework</li>
-          <li>Newtab actions for pointer mode not working due to tab still loading</li>
-          <li>Errors for ipc calls to webview that are still being created by only sending data to webview with ready dom</li>
-          <li>First navigation issue that requires a second mouse click to navigate by delaying the useragent reroll</li>
-          <li>Relative feed URLs only returning the path (they are now prefixed with the current url as needed)</li>
-          <li>Firefox version calculation being ahead of time due to delayed Firefox releases</li>
-        </ul>
-        <ul>Versions
-          <li>Electron 25.2.0 (was 25.1.1)</li>
-          <li>Chromium 114.0.5735.134 (was 114.0.5735.106)</li>
-        </ul>
-      </description>
-    </release>
+    <release version="10.1.0" date="2023-06-23"/>
     <release version="9.2.0" date="2022-09-29"/>
     <release version="9.1.0" date="2022-09-08"/>
     <release version="9.0.0" date="2022-08-14"/>
