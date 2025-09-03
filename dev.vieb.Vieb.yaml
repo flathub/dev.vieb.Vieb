@@ -55,8 +55,8 @@ modules:
         dest-filename: vieb.appimage
         only-arches:
           - aarch64
-        url: https://github.com/Jelmerro/Vieb/releases/download/12.4.0/Vieb-12.4.0-arm64.AppImage
-        sha256: bc94d45fd6d8a6bf9002a049ddbac510f4ff0d3377d188b09b20ae886dabaa7e
+        url: https://github.com/Jelmerro/Vieb/releases/download/12.5.0/Vieb-12.5.0-arm64.AppImage
+        sha256: 0fa95ee3c8da85a640291ee650f7e2311d841ccc8226a870e0d62e79fb4d25f0
         x-checker-data:
           type: anitya
           project-id: 243097
@@ -66,8 +66,8 @@ modules:
         dest-filename: vieb.appimage
         only-arches:
           - x86_64
-        url: https://github.com/Jelmerro/Vieb/releases/download/12.4.0/Vieb-12.4.0.AppImage
-        sha256: 9e1c386d24fda396a04cdc33ca9f2ab91ce17463e435f254c2c58c2e7603524c
+        url: https://github.com/Jelmerro/Vieb/releases/download/12.5.0/Vieb-12.5.0.AppImage
+        sha256: 78b27788bc0e432b3177111332a24bf14dd123e526cff55c5a4b94fa3a06e499
         x-checker-data:
           is-main-source: true
           type: anitya
