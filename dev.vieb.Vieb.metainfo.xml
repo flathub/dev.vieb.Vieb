@@ -34,15 +34,19 @@
   <url type="bugtracker">https://github.com/Jelmerro/Vieb/issues</url>
   <url type="faq">https://github.com/Jelmerro/Vieb/blob/master/FAQ.md</url>
   <url type="donation">https://github.com/sponsors/Jelmerro</url>
+  <url type="vcs-browser">https://github.com/Jelmerro/Vieb</url>
   <screenshots>
     <screenshot type="default">
       <image>https://vieb.dev/img/1.png</image>
+      <caption>Vieb on the main startup screen and help page</caption>
     </screenshot>
     <screenshot>
       <image>https://vieb.dev/img/2.png</image>
+      <caption>Vieb in light theme in its explore mode</caption>
     </screenshot>
     <screenshot>
       <image>https://vieb.dev/img/5.png</image>
+      <caption>Vieb in light theme with a search for vim</caption>
     </screenshot>
   </screenshots>
   <releases>
