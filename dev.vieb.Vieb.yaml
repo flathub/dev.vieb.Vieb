@@ -133,7 +133,8 @@ modules:
           - type: shell
             dest: src
             commands:
-              - autoreconf -si
+              - autoconf
+              - autoheader
         cleanup:
           - /bin
           - /lib/pkgconfig
